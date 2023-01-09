@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    /* margin: auto; */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: linear 800ms;
+}
+
+body {
+    margin: 0;
+}
+nav {
+    background-color: white;
+    box-shadow: 0 -15px 25px #141b29;
+    padding-left: 1rem;
+    height: 5rem;
+}
+.navbar-brand {
+    color: black;
+    font-size: 16px;
+}
+.navbar-nav {
+    margin-top: 1.2rem;
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    color: red;
+}
+.navbar-toggler-icon,
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:active,
+.navbar-toggler-icon:focus{
+    border: none !important;
+    outline: none !important;
+}
+.offcanvas {
+    background-color: red;
+}
+.offcanvas-title {
+    color: white;
+}
+.btn-close {
+    color: white !important;
+}
+.hero-section {
+    margin-top: 4.2rem;
+    padding-top: 3.7rem;
+}
+.hero--toast {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.hero--text {
+    color: red;
+    font-weight: 800;
+    line-height: 3.5rem;
+}
+.hero--extras {
+    color: red;
+    font-weight: 400;
+    font-size: 16px;
+}
+.heading--underline {
+    width: 90vw;
+}
+.hero--summary {
+    padding-top: 2rem;
+    font-size: 16px;
+    line-height: 2rem;
+    text-align: justify;
+}
+.model-section {
+    padding-top: 2rem !important;
+}
+.model--summary--heading {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+.model--phase {
+    font-size: 16px;
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.model--image {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero--text {
+        font-size: 22px;
+        line-height: 2rem;
+    }
+    .hero--summary p {
+        line-height: 1.5rem;
+    }
+    .fa-bars {
+        color: red;
+        z-index: 9999;
+    }
+    .nav-link {
+        color: white;
+    }
+    .nav-link:hover,
+    .nav-link:active,
+    .nav-link:focus {
+        color: white;
+    }
+}
